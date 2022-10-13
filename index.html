@@ -16,105 +16,68 @@ New Tankers joy, website!
 </body>
 
   
-<style>  
-h1 {  
-    text-align: center;  
-    padding: 23px;  
-    background-color: skyblue;  
-    color: white;  
-    }  
-  
-#clear{  
-width: 270px;  
-border: 3px solid gray;  
-    border-radius: 3px;  
-    padding: 20px;  
-    background-color: red;  
-}  
-  
-.formstyle  
-{  
-width: 300px;  
-height: 530px;  
-margin: auto;  
-border: 3px solid skyblue;  
-border-radius: 5px;  
-padding: 20px;  
-}  
-  
-  
-  
-input  
-{  
-width: 20px;  
-background-color: green;  
-color: white;  
-border: 3px solid gray;  
-    border-radius: 5px;  
-    padding: 26px;  
-    margin: 5px;  
-    font-size: 15px;  
-}  
-  
-  
-#calc{  
-width: 250px;  
-border: 5px solid black;  
-    border-radius: 3px;  
-    padding: 20px;  
-    margin: auto;  
-}  
-  
-</style>  
-  
-</head>  
-<body>  
-<h1> Calculator Program in JavaScript </h1>  
-<div class= "formstyle">  
-<form name = "form1">  
-      
-    <!-- This input box shows the button pressed by the user in calculator. -->  
-  <input id = "calc" type ="text" name = "answer"> <br> <br>  
-  <!-- Display the calculator button on the screen. -->  
-  <!-- onclick() function display the number prsses by the user. -->  
-  <input type = "button" value = "1" onclick = "form1.answer.value += '1' ">  
-  <input type = "button" value = "2" onclick = "form1.answer.value += '2' ">  
-  <input type = "button" value = "3" onclick = "form1.answer.value += '3' ">  
-   <input type = "button" value = "+" onclick = "form1.answer.value += '+' ">  
-  <br> <br>  
-    
-  <input type = "button" value = "4" onclick = "form1.answer.value += '4' ">  
-  <input type = "button" value = "5" onclick = "form1.answer.value += '5' ">  
-  <input type = "button" value = "6" onclick = "form1.answer.value += '6' ">  
-  <input type = "button" value = "-" onclick = "form1.answer.value += '-' ">  
-  <br> <br>  
-    
-  <input type = "button" value = "7" onclick = "form1.answer.value += '7' ">  
-  <input type = "button" value = "8" onclick = "form1.answer.value += '8' ">  
-  <input type = "button" value = "9" onclick = "form1.answer.value += '9' ">  
-  <input type = "button" value = "*" onclick = "form1.answer.value += '*' ">  
-  <br> <br>  
-    
-    
-  <input type = "button" value = "/" onclick = "form1.answer.value += '/' ">  
-  <input type = "button" value = "0" onclick = "form1.answer.value += '0' ">  
-    <input type = "button" value = "." onclick = "form1.answer.value += '.' ">  
-    <!-- When we click on the '=' button, the onclick() shows the sum results on the calculator screen. -->  
-  <input type = "button" value = "=" onclick = "form1.answer.value = eval(form1.answer.value) ">  
-  <br>   
-  <!-- Display the Cancel button and erase all data entered by the user. -->  
-  <input type = "button" value = "Clear All" onclick = "form1.answer.value = ' ' " id= "clear" >  
-  <br>   
-    
-</form>  
-</div>  
-</body>  
 <footer>
-    Click on the links below to see all the factions of ww2 and will soon be used in the application.
+    <audio controls>
+        <source src="Audio/dreams.mp3">
+    </audio>
 </footer>
-<head>
-    <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
-    <script defer src="https://pyscript.net/latest/pyscript.js"></script>
-    print('Tanks are cool and so is python')
-    </head>
-    
+<style>
+    *{
+        box-sizing: border-box;
+        font:size 3vw;
+    }
+    div {border: thin dotted green}
+
+    .header {
+        border: 1px solid green;
+        padding: 15px;
+        font-size:4vw;
+    }
+    .menu {
+        width: 50%;
+        float: left;
+        padding: 15px;
+        border: 1px solid blue;
+    }
+    .main {
+        width: 25%;
+        float: left;
+        padding: 15px;
+        border: 1px solid blue;
+    }
+    .aside {
+        width: 100%;
+        float: bottom;
+        padding: 20px;
+        border: 2px solid blue;}
+    .footer {
+        padding: 20px;
+        float: right;
+        border: 1px solid blue;}
+    .aside2 {
+        width: 25%;
+        float: right;
+        padding: 20px;
+        border: 1px solid aqua;
+    }
+   </style>
+   <aside class="aside">
+    <ul>
+ <em><li><a href="https://wiki.warthunder.com/Category:USA_ground_vehicles">USA</a></em></li>
+ <em><li><a href="https://wiki.warthunder.com/Category:Germany_ground_vehicles">Germany</a></em></li>
+ <em><li><a href="https://wiki.warthunder.com/Category:USSR_ground_vehicles">Soviet Union</a></em></li>
+ <em><li><a href="https://wiki.warthunder.com/Category:Britain_ground_vehicles">Great Britan</a></em></li>
+ <em><li><a href="https://wiki.warthunder.com/Category:Japan_ground_vehicles">Japan</a></em></li>
+ <em><li><a href="https://wiki.warthunder.com/Category:France_ground_vehicles">France</a></em></li>
+ <em><li><a href="https://wiki.warthunder.com/Category:Italy_ground_vehicles">Italy</a></em></li>
+ <em><li><a href="https://wiki.warthunder.com/Category:China_ground_vehicles">China</a></em></li>
+ <em><li><a href="https://wiki.warthunder.com/Category:Sweden_ground_vehicles">Sweden</a></em></li>
+ <em><li><a href="https://wiki.warthunder.com/Category:Israel_ground_vehicles">Israel</a></em></li>
+ <em><li><a href="file://fs-052/studuser$/Gr10/o.chaudhari/My%20Documents/GitHub/New-tankers-joy-webiste/childpages/Calculator.html">Here is a calculator if you are bored.</a></em></li>
+    </ul>
+   </aside>
+   <section>&copy Om chaudhari, powered by onm123124 on Github</section>
+
+
+   <img src="https://flyingmag.sfo3.digitaloceanspaces.com/flyingma/wp-content/uploads/2021/08/27154652/httpswww.flyingmag.comsitesflyingmag.comfilesimport2010sitesallfiles_images201008FLY0810_mustang_1000x674-1.jpg">
+   
