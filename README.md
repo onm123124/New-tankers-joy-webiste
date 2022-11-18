@@ -25,8 +25,6 @@ A website for war thunder nerds.
 
 
 
-# Author
-I, Om Chaudhari am A indian born, Canadian citizen, a 15 year old, am a new developer, I liked computers since I was 4 years old, I have loved the complications and I want to make a new website in relation to a game called war thunder. I hope this website helps the new generation discover a new world in tanks, and Bieng able to build and fight. 
 
 
 
